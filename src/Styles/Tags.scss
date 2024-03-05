@@ -1,0 +1,19 @@
+@import "../Variables/Variables.scss";
+
+.flexTags{
+ display: flex;
+}
+
+.tagsForm{
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  border-radius: 8px;
+  background-color: $corailColor;
+  margin-right: 10px;
+  color: $whiteColor;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 20px;
+
+}

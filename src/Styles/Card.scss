@@ -1,0 +1,47 @@
+@import "../Variables/Variables.scss";
+
+
+
+.container-flex{
+  display: flex;
+  /*grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));*/
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  background-color: $greyColor;
+  padding-top: 30px;
+}
+
+
+
+ .card-form{
+  position: relative;
+  flex-grow: 1;
+  flex-basis: calc(33.33% - 10px);
+  margin-bottom: 20px; /* Espace entre les lignes */
+  margin-bottom: 40px;
+  @include cardSize();
+}
+
+
+.card-flex{
+  position: relative;
+  
+}
+
+.card-logement{
+  @include cardSize();
+}
+
+.card-overlay{
+  position: absolute;
+  top: 83%;
+  left: 35%;
+  transform: translate(-50%, -50%); 
+  text-align: center; 
+  color: $whiteColor; 
+  font-family: $titleFont2;
+  font-size: 15px;
+}
+

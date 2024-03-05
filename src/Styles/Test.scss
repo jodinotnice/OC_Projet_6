@@ -1,0 +1,77 @@
+@import "../Variables/Variables.scss";
+
+
+.flex-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 500px;
+}
+
+.item{
+  padding:20px 20px;
+}
+
+.title{
+  background-color: $corailColor;
+  color: $whiteColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  border-radius: 3px;
+
+  h2{
+    font-family: $titleFont2;
+    font-size: 18px;
+    padding-left: 10px;
+  }
+
+  span{
+    padding-right: 10px;
+  }
+}
+
+.content{
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+
+.content.show{
+  height:auto;
+  max-height: 300px;
+  transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
+.content-show-column{
+  display: flex;
+  flex-direction: column;
+  height:auto;
+  max-height: 300px;
+  transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
+.content ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.content ul li {
+  margin-bottom: 10px;
+  font-family: $titleFont2;
+  font-size: 14px;
+}

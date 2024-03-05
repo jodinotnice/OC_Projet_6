@@ -1,0 +1,25 @@
+@import "../Variables/Variables.scss";
+
+
+.flex-head{
+  display: flex;
+  justify-content: space-between;
+  img{
+    height: 90px;
+    margin-left: -20px;
+  }
+}
+.navbar {
+  color: $blackColor;
+  font-family: $titleFont2;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+
+  a ,a.active{
+    color: $blackColor;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 50px;
+    }
+}

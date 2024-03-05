@@ -1,0 +1,55 @@
+@import "../Variables/Variables.scss";
+
+.flexContainer{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: $titleFont2;
+}
+
+.flexTitleLoc{
+  
+  h3{
+    color: $corailColor;
+    font-weight: 500;
+  }
+
+  p{
+    font-weight: 500;
+  }
+}
+
+
+
+.flexHostName{
+display:flex;
+ p{
+  margin-right: 10px;
+  color: $corailColor;
+  font-weight: 500;
+  text-wrap: wrap;
+ }
+}
+
+
+.flexRateTags{
+  display: flex;
+  justify-content: space-between;
+  font-family: $titleFont2;
+  align-items: center;
+}
+
+
+.flex-collapse{
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapseParent{
+ 
+  width: 500px;
+}
+
+
+
+

@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Roboto:wght@400;500;700&display=swap);
+.flexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+}
+
+.flexTitleLoc h3 {
+  color: #ff6060;
+  font-weight: 500;
+}
+.flexTitleLoc p {
+  font-weight: 500;
+}
+
+.flexHostName {
+  display: flex;
+}
+.flexHostName p {
+  margin-right: 10px;
+  color: #ff6060;
+  font-weight: 500;
+  text-wrap: wrap;
+}
+
+.flexRateTags {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+  align-items: center;
+}
+
+.flex-collapse {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapseParent {
+  width: 500px;
+}/*# sourceMappingURL=FicheDeLogement.css.map */

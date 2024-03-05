@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Roboto:wght@400;500;700&display=swap);
+.flexTags {
+  display: flex;
+}
+
+.tagsForm {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff6060;
+  margin-right: 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 20px;
+}/*# sourceMappingURL=Tags.css.map */

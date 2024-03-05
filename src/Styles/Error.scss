@@ -1,0 +1,36 @@
+@import "../Variables/Variables.scss";
+
+
+.containerError{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.errorStyle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  font-family: $titleFont2;
+   p{
+    color: $corailColor;
+   }
+}
+
+.errorNumber{
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.errorText{
+  margin-top: -20px;
+  padding-bottom: 50px;
+  font-weight: 500;
+}
+
+.redirect{
+  color: $blackColor;
+  font-size: 12px;
+  padding-bottom: 70px;
+}
