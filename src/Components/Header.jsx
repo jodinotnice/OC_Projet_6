@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png';
+import { NavLink } from 'react-router-dom';
+import logo from '../assets/_Header.png';
 import '../Styles/Header.css';
 
 function Header() {
@@ -13,8 +13,8 @@ function Header() {
 
             <nav className="navbar">
               
-                <Link to="/">Accueil</Link>
-                <Link to={`/a-propos`}> A propos</Link>
+                <NavLink  activeClassName="active" to="/">Accueil</NavLink>
+                <NavLink  activeClassName="active" to={`/a-propos`}> A propos</NavLink>
               
             </nav>
     </header>

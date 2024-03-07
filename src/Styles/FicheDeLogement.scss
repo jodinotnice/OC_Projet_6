@@ -1,5 +1,14 @@
 @import "../Variables/Variables.scss";
 
+.big-container{
+  margin: 5%;
+
+	@media screen and (min-width: $breakpoint-desktop) {
+		margin: 0 100px;
+	}
+}
+
+
 .flexContainer{
   display:flex;
   align-items: center;
@@ -46,8 +55,9 @@ display:flex;
 }
 
 .collapseParent{
- 
   width: 500px;
+  margin-left: -25px;
+  margin-right: -25px;
 }
 
 

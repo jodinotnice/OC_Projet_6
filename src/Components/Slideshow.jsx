@@ -17,6 +17,7 @@ function Slideshow({slides}) {
   };
 
   const slideStyles = {
+    marginTop: "30px",
     width: "100%",
     height: "100%",
     borderRadius: "10px",

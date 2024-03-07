@@ -2,20 +2,19 @@
 
 .footer-style{
   background-color: $blackColor ;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- 
-
     img{
-      height: 75px;
-      margin-top: 15px
+      height: 39px;
+      margin-top: 50px;
+      margin-bottom: 20px
     }
 }
 
 
 .flex-footer{
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .mention-style{

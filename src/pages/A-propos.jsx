@@ -48,7 +48,8 @@ function APropos(){
 
 
    return(
-   <>
+<>
+   <main className="main-container">
    
       <Banner imgSrc={Kalen} imgAlt={"Banniere page A propos"}/>
       <div className="flex-wrapper">
@@ -61,8 +62,8 @@ function APropos(){
       </div>
       </div>
       
-      
-   </>
+   </main>
+</>
    )
 };
 

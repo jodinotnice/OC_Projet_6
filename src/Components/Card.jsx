@@ -7,14 +7,16 @@ function Card(){
 
   return(
   <>
-  <div className='container-flex'>
+  <div className='containerFlex'>
     {logementsData.map((logement) => (
-        <div>
-        <Link className="card-form" key={logement.id} to={`/logements/${logement.id}`}>
-          <div className='card-flex'>
+        <div className="card-logement" key={logement.id}>
+        <Link key={logement.id} to={`/logements/${logement.id}`}>
+          <article>
             <img className='card-logement' src={logement.cover} alt={logement.title} />
-            <h3 className='card-overlay'>{logement.title}</h3>
-          </div>
+            <div className='card-logement_flex'>
+              <p className='card-logment_overlay'>{logement.title}</p>
+            </div>
+          </article>
         </Link>
         </div>
       ) )};  

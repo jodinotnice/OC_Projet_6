@@ -1,4 +1,4 @@
-import Logo from '../assets/logo-noir.png';
+import Logo from '../assets/LOGO.svg';
 import '../Styles/Footer.css';
 
 function Footer() {

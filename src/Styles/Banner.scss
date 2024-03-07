@@ -1,9 +1,20 @@
 @import "../Variables/Variables.scss";
 
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrer horizontalement */
+  justify-content: center; /* Centrer verticalement */
+  margin: 0 50px;
+}
 
 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  @include bannerSize();
+  height: 220px;
+  width: 100%;
 }
 
 .text-overlay {
