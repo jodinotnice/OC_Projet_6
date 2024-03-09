@@ -14,7 +14,7 @@
   font-family: "Montserrat", sans-serif;
   margin-top: 10px;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .flexContainer {
     flex-direction: column;
   }
@@ -39,7 +39,7 @@
   color: #ff6060;
   font-weight: 500;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .flexHostNameRate {
     display: flex;
     width: 100%;
@@ -47,7 +47,7 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .flexFlexflex {
     display: flex;
     width: 100%;
@@ -70,7 +70,7 @@
   justify-content: space-between;
   gap: 5%;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .flex-collapse {
     flex-direction: column;
     gap: 0;
@@ -81,7 +81,7 @@
 .collapseParent {
   width: 500px;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .collapseParent {
     width: 100%;
   }

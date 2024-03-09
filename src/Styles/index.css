@@ -13,7 +13,7 @@ main {
   justify-content: center;
   margin: 0 50px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 520px) {
   main {
     margin: 5%;
   }

@@ -33,7 +33,7 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .card-logement img {
     min-width: 335px;
   }

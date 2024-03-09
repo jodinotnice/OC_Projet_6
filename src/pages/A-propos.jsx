@@ -2,7 +2,7 @@ import CollapseButton from '../Components/CollapseButton.jsx';
 import Banner from '../Components/Banner.jsx';
 import Kalen from '../assets/kalen.svg';
 import '../Styles/Banner.css';
-import "../Styles/Test.css";
+import "../Styles/CollapseApropos.css";
 
 function APropos(){
 

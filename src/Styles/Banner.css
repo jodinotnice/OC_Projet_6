@@ -23,7 +23,7 @@
   width: 100%;
   border-radius: 20px;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .text-overlay {
     min-width: 335px;
   }
@@ -34,7 +34,7 @@
   font-size: 30px;
   box-shadow: 0px 16px 9px 0px rgba(0, 0, 0, 0.1);
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .text-overlay h2 {
     font-size: 25px;
   }
@@ -48,7 +48,7 @@
      object-fit: cover;
   box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.4);
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .bannerStyle {
     min-width: 335px;
   }

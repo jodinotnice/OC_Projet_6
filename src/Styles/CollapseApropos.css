@@ -15,7 +15,7 @@
   margin-bottom: 15px;
   width: 85%;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .accordion {
     min-width: 335px;
   }
@@ -25,14 +25,14 @@
   padding: 15px 0px;
   width: 100%;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .item {
     width: 100%;
     padding: 20px 20px 20px 0px;
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .main-container, .accordion, .item {
     width: 100%;
   }
@@ -86,4 +86,4 @@
   margin-bottom: 10px;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-}/*# sourceMappingURL=Test.css.map */
+}/*# sourceMappingURL=CollapseApropos.css.map */
