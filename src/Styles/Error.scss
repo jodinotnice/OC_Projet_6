@@ -27,10 +27,25 @@
   margin-top: -20px;
   padding-bottom: 50px;
   font-weight: 500;
+
+  @media screen and (max-width: 420px) {
+    width: 219px;
+    padding-bottom: 70px;
+    font-size: 18px;
+    text-align: center;
+    
+  }
 }
 
 .redirect{
   color: $blackColor;
   font-size: 12px;
   padding-bottom: 70px;
+
+  @media screen and (max-width: 420px) {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    
+  }
 }

@@ -10,19 +10,15 @@
   display: flex;
   align-items: flex-start;
   margin: 0;
-  width: 14rem;
+  width: 210px;
 }
 @media screen and (max-width: 420px) {
   .flex-head figure {
-    width: 9rem;
+    width: 145px;
   }
 }
 .flex-head img {
   width: 100%;
-  /* @media screen and (max-width: 420px){
-     width: 78px;
-     height: 29.44px;
-   }*/
 }
 
 .navbar {
