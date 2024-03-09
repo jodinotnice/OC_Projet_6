@@ -44,23 +44,30 @@ function FicheLogement(){
             <div className="slideshowContainer">
                 <Slideshow slides={slides} />
             </div>
-              
-              <div className="flexContainer">
-                <div className="flexTitleLoc">
-                  <h3>{logement.title}</h3>
-                  <p>{logement.location}</p>
-                </div>
 
-                <div className="flexHostName">
-                  <p>{logement.host.name}</p>
-                  <Host img={logement.host.picture} alt={logement.host.name}/>
-                </div>
+            <section className="flexContainer">
+              <div>
+                  <div className="flexTitleLoc">
+                      <h1>{logement.title}</h1>
+                      <p>{logement.location}</p>
+                  </div>
+                    
+                  <div className="flexTags">
+                    <Tags tag={logement.tags} />
+                  </div>
               </div>
 
-              <div className="flexRateTags">
-              <Tags tag={logement.tags} />
-              <Rates rate={logement.rating} />
+              <div className="flexHostNameRate">
+                
+                    <Host name={logement.host.name} img={logement.host.picture} alt={logement.host.name}/>
+      
+                <div className="flexRate">
+                  <Rates rate={logement.rating} />
+                </div>
               </div>
+            </section>
+
+            
               
               <div className="flex-collapse">
                 <div className="collapseParent">

@@ -2,8 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 .coralStar {
   color: #ff6060;
+  font-size: 20px;
 }
 
 .unStar {
   color: #e3e3e3;
+  font-size: 20px;
 }/*# sourceMappingURL=Rating.css.map */

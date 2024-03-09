@@ -1,4 +1,18 @@
+.flexHost{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 12%;
+}
+
+.flexHostName{
+  display: flex;
+  width: 60px;
+  text-align: right;
+}
+
 .imgForm{
-  height: 70px;
-  border-radius: 70px;
+  height: 60px;
+  border-radius: 60px;
 }

@@ -4,8 +4,14 @@ function Host(props){
 
   return(
     <>
-    <aside>
-      <img className="imgForm" src={props.img} alt={props.alt} />
+    <aside className="flexHost">
+      <div className="flexHostName">
+        {props.name}
+      </div>
+      <div>
+        <img className="imgForm" src={props.img} alt={props.alt} />
+      </div>
+      
     </aside>
     </>
   )
