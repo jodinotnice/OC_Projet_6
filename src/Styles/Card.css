@@ -26,18 +26,17 @@
   min-width: 335px;
   transition: transform 1s;
 }
-@media screen and (min-width: 769px) {
-  .card-logement {
-    width: 340px;
-    height: 340px;
-  }
-}
 .card-logement img {
   display: flex;
   width: 100%;
   border-radius: 25px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media screen and (max-width: 420px) {
+  .card-logement img {
+    min-width: 335px;
+  }
 }
 .card-logement_flex {
   display: flex;

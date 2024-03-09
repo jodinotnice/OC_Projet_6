@@ -1,8 +1,8 @@
-import { useState } from 'react'
 import CollapseButton from '../Components/CollapseButton.jsx';
 import Banner from '../Components/Banner.jsx';
 import Kalen from '../assets/kalen.svg';
 import '../Styles/Banner.css';
+import "../Styles/Test.css";
 
 function APropos(){
 
@@ -49,19 +49,16 @@ function APropos(){
 
    return(
 <>
-   <main className="main-container">
-   
-      <Banner imgSrc={Kalen} imgAlt={"Banniere page A propos"}/>
-      <div className="flex-wrapper">
-         <div className='wrapper'>
-         <div className='accordion'>
+   <main>
+      <div className="main-container">
+         <Banner imgSrc={Kalen} imgAlt={"Banniere page A propos"}/>
+            <div className='accordion'>
           {data.map((item) => (
             <CollapseButton label={item.label} content={item.content} key={item.id}/>
           ))}  
          </div>
       </div>
-      </div>
-      
+
    </main>
 </>
    )

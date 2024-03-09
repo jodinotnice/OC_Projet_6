@@ -19,7 +19,7 @@ function Card(){
           </article>
         </Link>
         </div>
-      ) )};  
+      ) )} 
     </div>
   </>
   )

@@ -5,6 +5,11 @@
   width: 100%;
   gap: 12%;
 }
+@media screen and (max-width: 420px) {
+  .flexHost {
+    gap: 5%;
+  }
+}
 
 .flexHostName {
   display: flex;

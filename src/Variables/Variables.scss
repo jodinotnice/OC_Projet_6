@@ -15,14 +15,15 @@ $titleFont2: 'Montserrat', sans-serif;
 
 //TAILLE Images
 @mixin bannerSize(){
-  height: 220px;
+  height: 150px;
   width: 100%;
   border-radius: 20px;
   object-fit: cover;
+  
 }
 
 @mixin overlaySize(){
-  height: 220px;
+  height: 150px;
   width: 100%;
   border-radius: 20px;
 }

@@ -7,7 +7,6 @@ import Tags from '../Components/Tags.jsx';
 import Rates from '../Components/Rates.jsx';
 import Host from '../Components/Host.jsx';
 import Slideshow from '../Components/Slideshow.jsx';
-import ErreurPage from '../Components/Error.jsx';
 import "../Styles/FicheDeLogement.css"
 
 
@@ -58,18 +57,17 @@ function FicheLogement(){
               </div>
 
               <div className="flexHostNameRate">
-                
-                    <Host name={logement.host.name} img={logement.host.picture} alt={logement.host.name}/>
-      
-                <div className="flexRate">
+                <div className="flexFlexflex">
+                  <Host name={logement.host.name} img={logement.host.picture} alt={logement.host.name}/>
+
+                  <div className="flexRate">
                   <Rates rate={logement.rating} />
                 </div>
+                </div>
+                    
               </div>
-            </section>
-
-            
-              
-              <div className="flex-collapse">
+             </section>
+             <div className="flex-collapse">
                 <div className="collapseParent">
                   <CollapseButton  label={"Description"} content={logement.description}/>
                 </div>

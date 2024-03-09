@@ -16,7 +16,7 @@ function Rates(props){
 
   return(
     <>
-    <div>
+    <div className="Rating">
     {starsArray.map((star, index) => (
         <span key={index}>{star}</span>
       ))}

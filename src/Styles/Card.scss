@@ -29,16 +29,16 @@
     min-width: 335px;
     transition: transform 1s;
 
-    @media screen and (min-width: $breakpoint-desktop) {
-      width: 340px;
-      height: 340px;
-  }
 
   & img {
     display: flex;
     width: 100%;
     border-radius: 25px;
     object-fit: cover;
+
+    @media screen and (max-width: 420px) {
+      min-width: 335px; 
+    }
   }
 
   &_flex {

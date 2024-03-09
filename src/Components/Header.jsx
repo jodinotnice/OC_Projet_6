@@ -13,8 +13,8 @@ function Header() {
 
             <nav className="navbar">
               
-                <NavLink  activeClassName="active" to="/">Accueil</NavLink>
-                <NavLink  activeClassName="active" to={`/a-propos`}> A propos</NavLink>
+                <NavLink  activeclassname="active" to="/">Accueil</NavLink>
+                <NavLink  activeclassname="active" to={`/a-propos`}> A propos</NavLink>
               
             </nav>
     </header>
