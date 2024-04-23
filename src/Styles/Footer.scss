@@ -1,0 +1,28 @@
+@import "../Variables/Variables.scss";
+
+.footer-style{
+
+   margin-left: 0;
+  margin-right: 0;
+
+  background-color: $blackColor ;
+    img{
+      height: 39px;
+      margin-top: 50px;
+      margin-bottom: 20px
+    }
+}
+
+
+.flex-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mention-style{
+  color: $whiteColor;
+  font-size: 18px;
+  font-family: $titleFont2;
+}

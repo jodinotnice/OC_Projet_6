@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Roboto:wght@400;500;700&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 100%;
+  border-radius: 20px;
+}
+@media screen and (max-width: 520px) {
+  .text-overlay {
+    min-width: 335px;
+  }
+}
+
+.text-overlay h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  box-shadow: 0px 16px 9px 0px rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width: 520px) {
+  .text-overlay h2 {
+    font-size: 25px;
+  }
+}
+
+.bannerStyle {
+  height: 150px;
+  width: 100%;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.4);
+}
+@media screen and (max-width: 520px) {
+  .bannerStyle {
+    min-width: 335px;
+  }
+}/*# sourceMappingURL=Banner.css.map */

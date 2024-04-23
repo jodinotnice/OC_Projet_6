@@ -1,0 +1,17 @@
+@import "../Variables/Variables.scss";
+
+
+.Rating{
+display: flex;
+}
+
+.coralStar{
+  
+  color: $corailColor;
+  font-size: 20px;
+}
+
+.unStar{
+  color: #e3e3e3;
+  font-size: 20px;
+}

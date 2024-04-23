@@ -1,0 +1,59 @@
+@import "../Variables/Variables.scss";
+
+
+.flex-head{
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+  gap: 15%;
+
+  
+
+  figure{
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    width: 210px;
+
+    @media screen and (max-width: 420px){
+      width: 145px;
+    }
+  }
+
+  img{
+    width: 100%;
+  }
+}
+
+
+.navbar  {
+  color: $blackColor;
+  font-family: $titleFont2;
+  font-weight: 550;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  a {
+    text-decoration: none;
+    text-wrap: nowrap;
+    color: $blackColor;
+    font-size: 23px;
+    padding-left: 10%;
+    @media screen and (max-width: 420px) {
+      font-size: 15px;
+    }
+  }
+
+   a.active{
+    color: $blackColor;
+    font-size: 23px;
+    text-decoration:underline;
+
+    @media screen and (max-width: 420px) {
+      font-size: 15px;
+    }
+
+    }
+}

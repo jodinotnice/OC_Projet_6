@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Roboto:wght@400;500;700&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.Rating {
+  display: flex;
+}
+
+.coralStar {
+  color: #ff6060;
+  font-size: 20px;
+}
+
+.unStar {
+  color: #e3e3e3;
+  font-size: 20px;
+}/*# sourceMappingURL=Rating.css.map */

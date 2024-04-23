@@ -1,0 +1,97 @@
+@import "../Variables/Variables.scss";
+
+.big-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5%;
+}
+
+
+.flexContainer{
+  display:flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: $titleFont2;
+  margin-top: 10px;
+
+  @media screen and (max-width: 520px) {
+    flex-direction: column;
+  }
+}
+
+.flexTitleLoc{
+  display: flex;
+  flex-direction: column;
+  
+  h1{
+    color: $corailColor;
+  }
+
+  p{
+    font-weight: 500;
+    margin-top: -15px;
+  }
+}
+
+.flexHostNameRate{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: $corailColor;
+  font-weight: 500;
+
+  @media screen and (max-width: 520px) {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    
+  }
+}
+
+.flexFlexflex{
+  @media screen and (max-width: 520px) {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items:center;
+  }
+}
+.flexTags{
+  margin-top: -5px;
+  
+}
+
+
+.flexRate{
+  display: flex;
+  font-family: $titleFont2;
+  
+}
+
+
+.flex-collapse{
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+
+
+  @media screen and (max-width: 520px) {
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+  }
+}
+
+.collapseParent{
+  width: 500px;
+  
+  @media screen and (max-width: 520px) {
+    width: 100%;
+    
+  }
+}
+
+
+
+

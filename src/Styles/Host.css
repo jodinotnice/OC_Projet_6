@@ -1,0 +1,23 @@
+.flexHost {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 12%;
+}
+@media screen and (max-width: 520px) {
+  .flexHost {
+    gap: 5%;
+  }
+}
+
+.flexHostName {
+  display: flex;
+  width: 60px;
+  text-align: right;
+}
+
+.imgForm {
+  height: 60px;
+  border-radius: 60px;
+}/*# sourceMappingURL=Host.css.map */

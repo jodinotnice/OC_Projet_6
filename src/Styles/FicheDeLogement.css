@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Roboto:wght@400;500;700&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.big-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5%;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+}
+@media screen and (max-width: 520px) {
+  .flexContainer {
+    flex-direction: column;
+  }
+}
+
+.flexTitleLoc {
+  display: flex;
+  flex-direction: column;
+}
+.flexTitleLoc h1 {
+  color: #ff6060;
+}
+.flexTitleLoc p {
+  font-weight: 500;
+  margin-top: -15px;
+}
+
+.flexHostNameRate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #ff6060;
+  font-weight: 500;
+}
+@media screen and (max-width: 520px) {
+  .flexHostNameRate {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .flexFlexflex {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}
+
+.flexTags {
+  margin-top: -5px;
+}
+
+.flexRate {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+}
+
+.flex-collapse {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}
+@media screen and (max-width: 520px) {
+  .flex-collapse {
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+  }
+}
+
+.collapseParent {
+  width: 500px;
+}
+@media screen and (max-width: 520px) {
+  .collapseParent {
+    width: 100%;
+  }
+}/*# sourceMappingURL=FicheDeLogement.css.map */
